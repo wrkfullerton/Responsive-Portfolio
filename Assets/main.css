@@ -8,11 +8,20 @@
 @charset "UTF-8";
 
 
-/* ABOUT CSS */
+/* ABOUT */
 body{
 	text-align: center;
 	background: #fff;
 	font-family: sans-serif;		
+}
+
+.container
+{
+	margin-top: 100px;
+	color: black;
+	text-align: center;
+	width: 600px;
+	margin-bottom: 16px;
 }
 /* PORTFOLIO CSS */
 
@@ -70,10 +79,20 @@ form .submit:hover
 	background-color: #777;
 	cursor: pointer;
 }
+/* Image */
+.bio
+{
+	border-radius: 50%;
+}
 
+/* video */
+.video {
+	width: auto;
+	height: auto;
+  }
 /* FOOTER */
 
-footer h5
+footer
 {
-    text-align: center;
+    background-color: ##F6F7F9;
 }
